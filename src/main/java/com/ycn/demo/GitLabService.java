@@ -5,13 +5,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class GitLabService {
 	
-	String hallo = "hallo";
+	String msg = "Welcome at Young Capital.";
 
 	public GitLabService(){
-
 	}
 
-	public String sayHello(){
-		return "Hello World!";
+	public String sayMessage(){
+		return msg;
 	}
 }

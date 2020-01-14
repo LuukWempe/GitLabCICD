@@ -15,8 +15,8 @@ class GitlabcicddemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		gitLabService.sayHello();
-		assert gitLabService.sayHello().equals("Hello World!");
+		gitLabService.sayMessage();
+		assert gitLabService.sayMessage().equals("Welcome at Young Capital.");
 	}
 
 }
